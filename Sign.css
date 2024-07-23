@@ -1,0 +1,52 @@
+.page{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./images/header-image.png);
+    background-size: cover;
+    background-position: center;
+}
+#box{
+    height: 80vh;
+    background: linear-gradient(rgba(0,0,0,0.62),rgba(0,0,0,0.89));
+    color: azure;
+    border-radius: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 55px;
+    backdrop-filter: blur(2px);
+}
+#Form1,#Form1::placeholder {
+    border: none;
+    background-color: #333333;
+    color: rgb(150, 146, 146);
+}
+#Form2,#Form2::placeholder {
+    border: none;
+    background-color: #333333;
+    color: rgb(150, 146, 146);
+}
+#sign{
+    height: 3em;
+    background-color: #E50914;
+    border: none;
+    transition: all .3s ease-in;
+}
+#sign:hover{
+    background-color:#ffffff ;
+    color:#E50914 ;
+    border: 1px solid #E50914;
+}
+#row{
+    justify-content: center;
+}
+#logoo{
+    width: 200px;
+    margin-top: 10px;
+}
+#p{
+    margin-top: 5px;
+}
+#li{
+    color: #ffffff;
+}
